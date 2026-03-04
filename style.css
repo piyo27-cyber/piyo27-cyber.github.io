@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: plum;
+}
+.navbar{
+    background-color: rgb(255, 139, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    color: blueviolet;
+    padding: 15px;
+    
+}
+.navigasi{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+
+
+}
+.navigasi a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.content{
+    margin-top: 10%;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.isi{
+    color: blueviolet;
+    
+    
+}
+.isi p{
+    margin-bottom: 10px;
+}
+
+.tombol a{
+    background-color: blueviolet;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.contact a{
+    color: blueviolet;
+}
